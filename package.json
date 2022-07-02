@@ -6,18 +6,22 @@
   "dependencies": {
     "bootstrap": "^5.1.3",
     "cross-env": "^7.0.3",
-    "jquery": "^3.6.0",
     "cross-spawn": "^7.0.3",
+    "isexe": "^2.0.0",
+    "jquery": "^3.6.0",
     "path-key": "^3.1.1",
-    "shebang-regex": "^3.0.0",
-    "shebang-command": "^2.0.0",
     "popper.js": "^1.16.1",
-    "which": "^2.0.2",
-    "isexe": "^2.0.0"
+    "shebang-command": "^2.0.0",
+    "shebang-regex": "^3.0.0",
+    "which": "^2.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
   "scripts": {
+    "dev":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "repository": {
     "type": "git",
